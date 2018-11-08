@@ -15,6 +15,19 @@
 		4F16E1E6218A967100CC9AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F16E1E4218A967100CC9AC4 /* LaunchScreen.storyboard */; };
 		4F16E1F3218AD59000CC9AC4 /* RXTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16E1F1218AD59000CC9AC4 /* RXTestViewController.swift */; };
 		4F16E1F4218AD59100CC9AC4 /* RXTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F16E1F2218AD59000CC9AC4 /* RXTestViewController.xib */; };
+		4F1A803021928C7B000A02D6 /* CATypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A802E21928C7B000A02D6 /* CATypeCell.swift */; };
+		4F1A803121928C7B000A02D6 /* CATypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1A802F21928C7B000A02D6 /* CATypeCell.xib */; };
+		4F1A803321928DD1000A02D6 /* CATypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A803221928DD1000A02D6 /* CATypeModel.swift */; };
+		4F1A80362192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A80342192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.swift */; };
+		4F1A80372192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1A80352192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.xib */; };
+		4F26B30E219171BA0013600D /* CoreAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26B30C219171BA0013600D /* CoreAnimationViewController.swift */; };
+		4F26B30F219171BA0013600D /* CoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F26B30D219171BA0013600D /* CoreAnimationViewController.xib */; };
+		4F26B312219179650013600D /* RxCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26B310219179650013600D /* RxCellTest.swift */; };
+		4F26B313219179650013600D /* RxCellTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F26B311219179650013600D /* RxCellTest.xib */; };
+		4FFBAF62219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBAF60219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.swift */; };
+		4FFBAF63219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBAF61219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.xib */; };
+		4FFBAF66219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBAF64219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.swift */; };
+		4FFBAF67219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBAF65219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +41,19 @@
 		4F16E1E7218A967100CC9AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F16E1F1218AD59000CC9AC4 /* RXTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTestViewController.swift; sourceTree = "<group>"; };
 		4F16E1F2218AD59000CC9AC4 /* RXTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RXTestViewController.xib; sourceTree = "<group>"; };
+		4F1A802E21928C7B000A02D6 /* CATypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATypeCell.swift; sourceTree = "<group>"; };
+		4F1A802F21928C7B000A02D6 /* CATypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CATypeCell.xib; sourceTree = "<group>"; };
+		4F1A803221928DD1000A02D6 /* CATypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATypeModel.swift; sourceTree = "<group>"; };
+		4F1A80342192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimation_Transform_3d_ViewController.swift; sourceTree = "<group>"; };
+		4F1A80352192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAnimation_Transform_3d_ViewController.xib; sourceTree = "<group>"; };
+		4F26B30C219171BA0013600D /* CoreAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationViewController.swift; sourceTree = "<group>"; };
+		4F26B30D219171BA0013600D /* CoreAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAnimationViewController.xib; sourceTree = "<group>"; };
+		4F26B310219179650013600D /* RxCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCellTest.swift; sourceTree = "<group>"; };
+		4F26B311219179650013600D /* RxCellTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCellTest.xib; sourceTree = "<group>"; };
+		4FFBAF60219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimation_Transform_certainObject_ViewController.swift; sourceTree = "<group>"; };
+		4FFBAF61219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAnimation_Transform_certainObject_ViewController.xib; sourceTree = "<group>"; };
+		4FFBAF64219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimation_Transform_2d_ViewController.swift; sourceTree = "<group>"; };
+		4FFBAF65219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAnimation_Transform_2d_ViewController.xib; sourceTree = "<group>"; };
 		CB0A801A356CC23BAEB4DE97 /* Pods-DemoGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoGroup.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoGroup/Pods-DemoGroup.release.xcconfig"; sourceTree = "<group>"; };
 		FEFDC4B092879F0EA6053E8B /* Pods_DemoGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,6 +109,8 @@
 			children = (
 				4F16E1F1218AD59000CC9AC4 /* RXTestViewController.swift */,
 				4F16E1F2218AD59000CC9AC4 /* RXTestViewController.xib */,
+				4F26B310219179650013600D /* RxCellTest.swift */,
+				4F26B311219179650013600D /* RxCellTest.xib */,
 			);
 			path = RxSwift;
 			sourceTree = "<group>";
@@ -97,6 +125,17 @@
 		4F16E1EF218AA00D00CC9AC4 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				4F26B30C219171BA0013600D /* CoreAnimationViewController.swift */,
+				4F26B30D219171BA0013600D /* CoreAnimationViewController.xib */,
+				4F1A802E21928C7B000A02D6 /* CATypeCell.swift */,
+				4F1A802F21928C7B000A02D6 /* CATypeCell.xib */,
+				4F1A803221928DD1000A02D6 /* CATypeModel.swift */,
+				4F1A80342192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.swift */,
+				4F1A80352192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.xib */,
+				4FFBAF60219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.swift */,
+				4FFBAF61219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.xib */,
+				4FFBAF64219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.swift */,
+				4FFBAF65219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.xib */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -180,7 +219,13 @@
 			files = (
 				4F16E1E6218A967100CC9AC4 /* LaunchScreen.storyboard in Resources */,
 				4F16E1E3218A967100CC9AC4 /* Assets.xcassets in Resources */,
+				4F26B30F219171BA0013600D /* CoreAnimationViewController.xib in Resources */,
+				4FFBAF63219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.xib in Resources */,
+				4F1A803121928C7B000A02D6 /* CATypeCell.xib in Resources */,
+				4FFBAF67219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.xib in Resources */,
+				4F26B313219179650013600D /* RxCellTest.xib in Resources */,
 				4F16E1F4218AD59100CC9AC4 /* RXTestViewController.xib in Resources */,
+				4F1A80372192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.xib in Resources */,
 				4F16E1E1218A966F00CC9AC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,9 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFBAF62219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.swift in Sources */,
+				4F26B30E219171BA0013600D /* CoreAnimationViewController.swift in Sources */,
+				4F1A803021928C7B000A02D6 /* CATypeCell.swift in Sources */,
+				4FFBAF66219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.swift in Sources */,
+				4F1A80362192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.swift in Sources */,
 				4F16E1F3218AD59000CC9AC4 /* RXTestViewController.swift in Sources */,
 				4F16E1DE218A966F00CC9AC4 /* ViewController.swift in Sources */,
+				4F26B312219179650013600D /* RxCellTest.swift in Sources */,
 				4F16E1DC218A966F00CC9AC4 /* AppDelegate.swift in Sources */,
+				4F1A803321928DD1000A02D6 /* CATypeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

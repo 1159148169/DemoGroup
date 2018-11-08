@@ -9,78 +9,49 @@
 import UIKit
 import RxSwift
 
+class DemoGroupModel: NSObject {
+    var name: String = ""
+    
+    override init() {
+        super.init()
+        name = ""
+    }
+    
+    init(name: String) {
+        self.name = name
+    }
+}
+
 class ViewController: UIViewController {
     
+    @IBOutlet weak var tableView: UITableView!
     let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let observableA = Observable.of("1", "2", "3")
-//            .map { $0 + "OH MY GOD" }
-//        observableA
-//            .subscribe(onNext: { (str) in
-//                print(str)
-//            }, onError: { (error) in
-//                assert(true)
-//            }, onCompleted: {
-//                print("Success!")
-//            }).disposed(by: disposeBag)
-//
-//        let observableB = Observable.of("1", "2", "3")
-//            .map { Observable.just($0) }
-//        observableB.subscribe(onNext: { (observable) in
-//            print(observable)
-//        }, onError: { (error) in
-//            assert(true)
-//        }, onCompleted: {
-//            print("Success")
-//        }).disposed(by: disposeBag)
-//
-//        let observableC = Observable.of("1", "2", "3")
-//            .map { Observable.just($0) }
-//            .merge()
-//        observableC.subscribe(onNext: { (mergedObservable) in
-//            print(mergedObservable)
-//        }, onError: { (error) in
-//            assert(true)
-//        }, onCompleted: {
-//            print("Success")
-//        }).disposed(by: disposeBag)
-//
-//        let observableD = Observable.of("1", "2", "3")
-//            .flatMap { Observable.just($0) }
-//        observableD.subscribe(onNext: { (str) in
-//            print(str)
-//        }, onError: { (error) in
-//            assert(true)
-//        }, onCompleted: {
-//            print("Success")
-//        }).disposed(by: disposeBag)
-//
-//        let observableE = Observable.of("1", "2", "3")
-//            .flatMapLatest { Observable.just($0) }
-//        observableE.subscribe(onNext: { (str) in
-//            print(str)
-//        }, onError: { (error) in
-//            assert(true)
-//        }, onCompleted: {
-//            print("Success")
-//        }).disposed(by: disposeBag)
         
-        let subject1 = BehaviorSubject(value: "A")
-//        let subject2 = BehaviorSubject(value: "1")
+        let demoGroupData = Observable.just([DemoGroupModel(name: "CoreAnimation"),
+                                             DemoGroupModel(name: "CoreGraphics"),
+                                             DemoGroupModel(name: "RxSwift")])
+        demoGroupData.bind(to: tableView.rx.items(cellIdentifier: "DemoGroupMainCell", cellType: UITableViewCell.self)) { row, data, cell in
+            cell.textLabel?.text = data.name
+        }.disposed(by: disposeBag)
         
-        let variable = Variable(subject1)
-        
-        variable.asObservable()
-            .flatMapLatest { $0 }
-            .subscribe(onNext: { print($0) })
-            .disposed(by: disposeBag)
-        
-//        subject1.onNext("B")
-//        variable.value = subject2
-//        subject2.onNext("2")
-//        subject1.onNext("C")
+        tableView.rx.modelSelected(DemoGroupModel.self).subscribe { (model) in
+            guard let element = model.element else { return }
+            switch element.name {
+            case "CoreAnimation":
+                let vc = CoreAnimationViewController()
+                self.navigationController?.pushViewController(vc, animated: true)
+            case "CoreGraphics":
+                print("CoreGraphics")
+            case "RxSwift":
+                let vc = RXTestViewController()
+                self.navigationController?.pushViewController(vc, animated: true)
+            default:
+                print("NO...")
+            }
+        }.disposed(by: disposeBag)
     }
 }
 
