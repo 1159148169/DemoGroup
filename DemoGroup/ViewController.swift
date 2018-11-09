@@ -44,7 +44,8 @@ class ViewController: UIViewController {
                 let vc = CoreAnimationViewController()
                 self.navigationController?.pushViewController(vc, animated: true)
             case "CoreGraphics":
-                print("CoreGraphics")
+                let vc = CoreGraphicsViewController()
+                self.navigationController?.pushViewController(vc, animated: true)
             case "RxSwift":
                 let vc = RXTestViewController()
                 self.navigationController?.pushViewController(vc, animated: true)

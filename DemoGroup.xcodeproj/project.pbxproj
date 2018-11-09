@@ -24,6 +24,15 @@
 		4F26B30F219171BA0013600D /* CoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F26B30D219171BA0013600D /* CoreAnimationViewController.xib */; };
 		4F26B312219179650013600D /* RxCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26B310219179650013600D /* RxCellTest.swift */; };
 		4F26B313219179650013600D /* RxCellTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F26B311219179650013600D /* RxCellTest.xib */; };
+		4FEBB7B42195627A003F811A /* CoreGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBB7B22195627A003F811A /* CoreGraphicsViewController.swift */; };
+		4FEBB7B52195627A003F811A /* CoreGraphicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEBB7B32195627A003F811A /* CoreGraphicsViewController.xib */; };
+		4FEBB7B821956290003F811A /* CGTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBB7B621956290003F811A /* CGTypeCell.swift */; };
+		4FEBB7B921956290003F811A /* CGTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEBB7B721956290003F811A /* CGTypeCell.xib */; };
+		4FEBB7BB219562C2003F811A /* CGTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBB7BA219562C2003F811A /* CGTypeModel.swift */; };
+		4FEBB7BE21956AF5003F811A /* CoreGraphics_draw_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBB7BC21956AF5003F811A /* CoreGraphics_draw_ViewController.swift */; };
+		4FEBB7BF21956AF5003F811A /* CoreGraphics_draw_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEBB7BD21956AF5003F811A /* CoreGraphics_draw_ViewController.xib */; };
+		4FEBB7C221957245003F811A /* CGDrawLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBB7C021957245003F811A /* CGDrawLineCell.swift */; };
+		4FEBB7C321957245003F811A /* CGDrawLineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEBB7C121957245003F811A /* CGDrawLineCell.xib */; };
 		4FFBAF62219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBAF60219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.swift */; };
 		4FFBAF63219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBAF61219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.xib */; };
 		4FFBAF66219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBAF64219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.swift */; };
@@ -50,6 +59,15 @@
 		4F26B30D219171BA0013600D /* CoreAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAnimationViewController.xib; sourceTree = "<group>"; };
 		4F26B310219179650013600D /* RxCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCellTest.swift; sourceTree = "<group>"; };
 		4F26B311219179650013600D /* RxCellTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCellTest.xib; sourceTree = "<group>"; };
+		4FEBB7B22195627A003F811A /* CoreGraphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreGraphicsViewController.swift; path = DemoGroup/CoreAnimation/CoreGraphicsViewController.swift; sourceTree = SOURCE_ROOT; };
+		4FEBB7B32195627A003F811A /* CoreGraphicsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CoreGraphicsViewController.xib; path = DemoGroup/CoreAnimation/CoreGraphicsViewController.xib; sourceTree = SOURCE_ROOT; };
+		4FEBB7B621956290003F811A /* CGTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CGTypeCell.swift; path = DemoGroup/CoreAnimation/CGTypeCell.swift; sourceTree = SOURCE_ROOT; };
+		4FEBB7B721956290003F811A /* CGTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CGTypeCell.xib; path = DemoGroup/CoreAnimation/CGTypeCell.xib; sourceTree = SOURCE_ROOT; };
+		4FEBB7BA219562C2003F811A /* CGTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CGTypeModel.swift; path = DemoGroup/CoreAnimation/CGTypeModel.swift; sourceTree = SOURCE_ROOT; };
+		4FEBB7BC21956AF5003F811A /* CoreGraphics_draw_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreGraphics_draw_ViewController.swift; path = DemoGroup/CoreAnimation/CoreGraphics_draw_ViewController.swift; sourceTree = SOURCE_ROOT; };
+		4FEBB7BD21956AF5003F811A /* CoreGraphics_draw_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CoreGraphics_draw_ViewController.xib; path = DemoGroup/CoreAnimation/CoreGraphics_draw_ViewController.xib; sourceTree = SOURCE_ROOT; };
+		4FEBB7C021957245003F811A /* CGDrawLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CGDrawLineCell.swift; path = DemoGroup/CoreAnimation/CGDrawLineCell.swift; sourceTree = SOURCE_ROOT; };
+		4FEBB7C121957245003F811A /* CGDrawLineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CGDrawLineCell.xib; path = DemoGroup/CoreAnimation/CGDrawLineCell.xib; sourceTree = SOURCE_ROOT; };
 		4FFBAF60219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimation_Transform_certainObject_ViewController.swift; sourceTree = "<group>"; };
 		4FFBAF61219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAnimation_Transform_certainObject_ViewController.xib; sourceTree = "<group>"; };
 		4FFBAF64219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimation_Transform_2d_ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +136,15 @@
 		4F16E1EE218A9FDB00CC9AC4 /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
+				4FEBB7B22195627A003F811A /* CoreGraphicsViewController.swift */,
+				4FEBB7B32195627A003F811A /* CoreGraphicsViewController.xib */,
+				4FEBB7B621956290003F811A /* CGTypeCell.swift */,
+				4FEBB7B721956290003F811A /* CGTypeCell.xib */,
+				4FEBB7BA219562C2003F811A /* CGTypeModel.swift */,
+				4FEBB7BC21956AF5003F811A /* CoreGraphics_draw_ViewController.swift */,
+				4FEBB7BD21956AF5003F811A /* CoreGraphics_draw_ViewController.xib */,
+				4FEBB7C021957245003F811A /* CGDrawLineCell.swift */,
+				4FEBB7C121957245003F811A /* CGDrawLineCell.xib */,
 			);
 			path = CoreGraphics;
 			sourceTree = "<group>";
@@ -219,13 +246,17 @@
 			files = (
 				4F16E1E6218A967100CC9AC4 /* LaunchScreen.storyboard in Resources */,
 				4F16E1E3218A967100CC9AC4 /* Assets.xcassets in Resources */,
+				4FEBB7B52195627A003F811A /* CoreGraphicsViewController.xib in Resources */,
+				4FEBB7B921956290003F811A /* CGTypeCell.xib in Resources */,
 				4F26B30F219171BA0013600D /* CoreAnimationViewController.xib in Resources */,
 				4FFBAF63219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.xib in Resources */,
 				4F1A803121928C7B000A02D6 /* CATypeCell.xib in Resources */,
+				4FEBB7C321957245003F811A /* CGDrawLineCell.xib in Resources */,
 				4FFBAF67219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.xib in Resources */,
 				4F26B313219179650013600D /* RxCellTest.xib in Resources */,
 				4F16E1F4218AD59100CC9AC4 /* RXTestViewController.xib in Resources */,
 				4F1A80372192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.xib in Resources */,
+				4FEBB7BF21956AF5003F811A /* CoreGraphics_draw_ViewController.xib in Resources */,
 				4F16E1E1218A966F00CC9AC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,14 +319,19 @@
 			files = (
 				4FFBAF62219423B4007E0360 /* CoreAnimation_Transform_certainObject_ViewController.swift in Sources */,
 				4F26B30E219171BA0013600D /* CoreAnimationViewController.swift in Sources */,
+				4FEBB7BE21956AF5003F811A /* CoreGraphics_draw_ViewController.swift in Sources */,
 				4F1A803021928C7B000A02D6 /* CATypeCell.swift in Sources */,
+				4FEBB7B821956290003F811A /* CGTypeCell.swift in Sources */,
 				4FFBAF66219423D5007E0360 /* CoreAnimation_Transform_2d_ViewController.swift in Sources */,
 				4F1A80362192B6C8000A02D6 /* CoreAnimation_Transform_3d_ViewController.swift in Sources */,
 				4F16E1F3218AD59000CC9AC4 /* RXTestViewController.swift in Sources */,
+				4FEBB7B42195627A003F811A /* CoreGraphicsViewController.swift in Sources */,
 				4F16E1DE218A966F00CC9AC4 /* ViewController.swift in Sources */,
 				4F26B312219179650013600D /* RxCellTest.swift in Sources */,
 				4F16E1DC218A966F00CC9AC4 /* AppDelegate.swift in Sources */,
 				4F1A803321928DD1000A02D6 /* CATypeModel.swift in Sources */,
+				4FEBB7C221957245003F811A /* CGDrawLineCell.swift in Sources */,
+				4FEBB7BB219562C2003F811A /* CGTypeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
